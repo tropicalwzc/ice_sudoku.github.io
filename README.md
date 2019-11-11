@@ -5,9 +5,9 @@
 
 ## 如何使用
 ### iPhone 版本
-<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
 ### iPad 版本
-<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
 ### Windows & macOS 版本
 <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 
