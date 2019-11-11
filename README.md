@@ -3,6 +3,14 @@
 
 ![icon](https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/icesudokuicon.png)
 
+## 如何使用
+### iPhone 版本
+<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+### iPad 版本
+<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+### Windows & macOS 版本
+<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+
 ## 获取最新程序
 ## ios
 <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
