@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>ice sudoku HD 使用手册</title>
+
+
+  <style type="text/css">
+    body {
+      font-family: Helvetica, arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: white;
+      padding: 30px;
+    }
+
+    body>*:first-child {
+      margin-top: 0 !important;
+    }
+
+    body>*:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    a {
+      color: #4183C4;
+    }
+
+    a.absent {
+      color: #cc0000;
+    }
+
+    a.anchor {
+      display: block;
+      padding-left: 30px;
+      margin-left: -30px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 20px 0 10px;
+      padding: 0;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased;
+      cursor: text;
+      position: relative;
+    }
+
+    h1:hover a.anchor,
+    h2:hover a.anchor,
+    h3:hover a.anchor,
+    h4:hover a.anchor,
+    h5:hover a.anchor,
+    h6:hover a.anchor {
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+      text-decoration: none;
+    }
+
+    h1 tt,
+    h1 code {
+      font-size: inherit;
+    }
+
+    h2 tt,
+    h2 code {
+      font-size: inherit;
+    }
+
+    h3 tt,
+    h3 code {
+      font-size: inherit;
+    }
+
+    h4 tt,
+    h4 code {
+      font-size: inherit;
+    }
+
+    h5 tt,
+    h5 code {
+      font-size: inherit;
+    }
+
+    h6 tt,
+    h6 code {
+      font-size: inherit;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: black;
+    }
+
+    h2 {
+      font-size: 24px;
+      border-bottom: 1px solid #cccccc;
+      color: black;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+    h6 {
+      color: #777777;
+      font-size: 14px;
+    }
+
+    p,
+    blockquote,
+    ul,
+    ol,
+    dl,
+    li,
+    table,
+    pre {
+      margin: 15px 0;
+    }
+
+    hr {
+      background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+      border: 0 none;
+      color: #cccccc;
+      height: 4px;
+      padding: 0;
+    }
+
+    body>h2:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    body>h1:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    body>h1:first-child+h2 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    body>h3:first-child,
+    body>h4:first-child,
+    body>h5:first-child,
+    body>h6:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    a:first-child h1,
+    a:first-child h2,
+    a:first-child h3,
+    a:first-child h4,
+    a:first-child h5,
+    a:first-child h6 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    h1 p,
+    h2 p,
+    h3 p,
+    h4 p,
+    h5 p,
+    h6 p {
+      margin-top: 0;
+    }
+
+    li p.first {
+      display: inline-block;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 30px;
+    }
+
+    ul :first-child,
+    ol :first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      padding: 0;
+    }
+
+    dl dt {
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 0;
+      margin: 15px 0 5px;
+    }
+
+    dl dt:first-child {
+      padding: 0;
+    }
+
+    dl dt> :first-child {
+      margin-top: 0;
+    }
+
+    dl dt> :last-child {
+      margin-bottom: 0;
+    }
+
+    dl dd {
+      margin: 0 0 15px;
+      padding: 0 15px;
+    }
+
+    dl dd> :first-child {
+      margin-top: 0;
+    }
+
+    dl dd> :last-child {
+      margin-bottom: 0;
+    }
+
+    blockquote {
+      border-left: 4px solid #dddddd;
+      padding: 0 15px;
+      color: #777777;
+    }
+
+    blockquote> :first-child {
+      margin-top: 0;
+    }
+
+    blockquote> :last-child {
+      margin-bottom: 0;
+    }
+
+    table {
+      padding: 0;
+      border-collapse: collapse;
+    }
+
+    table tr {
+      border-top: 1px solid #cccccc;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8;
+    }
+
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+    table tr th :first-child,
+    table tr td :first-child {
+      margin-top: 0;
+    }
+
+    table tr th :last-child,
+    table tr td :last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    span.frame {
+      display: block;
+      overflow: hidden;
+    }
+
+    span.frame>span {
+      border: 1px solid #dddddd;
+      display: block;
+      float: left;
+      overflow: hidden;
+      margin: 13px 0 0;
+      padding: 7px;
+      width: auto;
+    }
+
+    span.frame span img {
+      display: block;
+      float: left;
+    }
+
+    span.frame span span {
+      clear: both;
+      color: #333333;
+      display: block;
+      padding: 5px 0 0;
+    }
+
+    span.align-center {
+      display: block;
+      overflow: hidden;
+      clear: both;
+    }
+
+    span.align-center>span {
+      display: block;
+      overflow: hidden;
+      margin: 13px auto 0;
+      text-align: center;
+    }
+
+    span.align-center span img {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    span.align-right {
+      display: block;
+      overflow: hidden;
+      clear: both;
+    }
+
+    span.align-right>span {
+      display: block;
+      overflow: hidden;
+      margin: 13px 0 0;
+      text-align: right;
+    }
+
+    span.align-right span img {
+      margin: 0;
+      text-align: right;
+    }
+
+    span.float-left {
+      display: block;
+      margin-right: 13px;
+      overflow: hidden;
+      float: left;
+    }
+
+    span.float-left span {
+      margin: 13px 0 0;
+    }
+
+    span.float-right {
+      display: block;
+      margin-left: 13px;
+      overflow: hidden;
+      float: right;
+    }
+
+    span.float-right>span {
+      display: block;
+      overflow: hidden;
+      margin: 13px auto 0;
+      text-align: right;
+    }
+
+    code,
+    tt {
+      margin: 0 2px;
+      padding: 0 5px;
+      white-space: nowrap;
+      border: 1px solid #eaeaea;
+      background-color: #f8f8f8;
+      border-radius: 3px;
+    }
+
+    pre code {
+      margin: 0;
+      padding: 0;
+      white-space: pre;
+      border: none;
+      background: transparent;
+    }
+
+    .highlight pre {
+      background-color: #f8f8f8;
+      border: 1px solid #cccccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px;
+    }
+
+    pre {
+      background-color: #f8f8f8;
+      border: 1px solid #cccccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px;
+    }
+
+    pre code,
+    pre tt {
+      background-color: transparent;
+      border: none;
+    }
+
+    sup {
+      font-size: 0.83em;
+      vertical-align: super;
+      line-height: 0;
+    }
+
+    kbd {
+      display: inline-block;
+      padding: 3px 5px;
+      font-size: 11px;
+      line-height: 10px;
+      color: #555;
+      vertical-align: middle;
+      background-color: #fcfcfc;
+      border: solid 1px #ccc;
+      border-bottom-color: #bbb;
+      border-radius: 3px;
+      box-shadow: inset 0 -1px 0 #bbb
+    }
+
+    * {
+      -webkit-print-color-adjust: exact;
+    }
+
+    @media screen and (min-width: 914px) {
+      body {
+        width: 854px;
+        margin: 0 auto;
+      }
+    }
+
+    @media print {
+
+      table,
+      pre {
+        page-break-inside: avoid;
+      }
+
+      pre {
+        word-wrap: break-word;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <h1 id="toc_0">ice sudoku HD 帮助手册</h1>
+
+  <h2 id="toc_1">熟悉主界面</h2>
+
+  <p><img src="simage/hdpic/IMG_0199.jpg" alt="j"></p>
+
+  <h1 id="toc_2">主界面上方的清空，导入，存档，读剪切板都是和数独的存档以及导入相关的</h1>
+
+  <h1 id="toc_3">下方左边的下一步，分析，求解，新数独按钮则是对当前数独的各种操作，右边的按钮分别是删除当前格的数字，撤销一步，切换主选数候选数输入模式，蓝色问号按钮是帮助手册。</h1>
+
+  <p><img src="simage/hdpic/IMG_0214.jpg" alt="help"></p>
+
+  <h1 id="toc_4">帮助手册中可以方便查看各个按钮的详细功能</h1>
+
+  <p><img src="simage/hdpic/IMG_0200.jpg" alt="gener"></p>
+
+  <h1 id="toc_5">点击新数独按钮，从新手，简单，中等，困难，顶尖中选择希望生成数独的难度</h1>
+
+  <p><img src="simage/hdpic/IMG_0201.jpg" alt="new"></p>
+
+  <h1 id="toc_6">这就是新生成的顶尖难度数独，点击分析按钮，查看求解该数独需要的技巧以及使用的次数。</h1>
+
+  <p><img src="simage/hdpic/IMG_0203.jpg" alt="stp"></p>
+
+  <h1 id="toc_7">通过下一步按钮就可以分步求解数独了，详细的技巧都显示在右边，比如这是基本技巧隐式三联法。</h1>
+
+  <p><img src="simage/hdpic/IMG_0205.jpg" alt="stp"></p>
+
+  <h1 id="toc_8">比较高级的技巧推断法</h1>
+
+  <p><img src="simage/hdpic/IMG_0206.jpg" alt="stp"></p>
+
+  <h1 id="toc_9">更加复杂的推断法，只有顶尖难度的数独才可能涉及到强力推断，超级推断，动态推断这些十分困难的方法。ice sudoku 会尽量解释清楚求解的思路。</h1>
+
+  <h2 id="toc_10">导入数独的方法</h2>
+
+  <p><img src="simage/hdpic/IMG_0207.jpg" alt="stp"></p>
+
+  <h1 id="toc_11">首先点击上方的清空按钮</h1>
+
+  <p><img src="simage/hdpic/IMG_0208.jpg" alt="see"></p>
+
+  <h1 id="toc_12">把你在其他地方见到的数独输入进去，现在都是可编辑的灰色数字</h1>
+
+  <p><img src="simage/hdpic/IMG_0209.jpg" alt="clic"></p>
+
+  <h1 id="toc_13">之后点击导入按钮就完成了，顺便完成了基本的分析操作，显示出当前数独难度高达9.2，相当困难的一个数独啊。</h1>
+
+  <p><img src="simage/hdpic/IMG_0210.jpg" alt="intd"></p>
+
+  <h1 id="toc_14">点击分析按钮查看为什么这么难，结果发现涉及好多强力推断和超级推断，还好不至于用动态推断。</h1>
+
+  <p><img src="simage/hdpic/IMG_0211.jpg" alt="detail"></p>
+
+  <h1 id="toc_15">那么具体去瞧瞧超级推断吧，涉及的推导比较复杂，上方的2如果存在，经过一系列的推断发现蓝色列的候选数3会被全部删去，这样不符合数独每一列都有9个不重复数字的规定，反推可以安全的删除2了。</h1>
+
+  <h2 id="toc_16">关于存档</h2>
+
+  <h1 id="toc_17">点击上方的存档按钮就可以进入存档系统了，可以为你的数独起名字，点击一个存档就可以完成基本的操作了，还有基本的预览。</h1>
+
+  <p><img src="simage/hdpic/IMG_0213.jpg" alt="dd"></p>
+
+  <h1 id="toc_18">你也可以通过右上角的0~8选择框进行快速切换快捷存档区，通过下方的箭头按钮就可以完成从快捷区导入以及存入快捷区了。这对于求解顶尖数独需要推断法的时候是相当便捷的。</h1>
+
+
+
+
+</body>
+
+</html>
