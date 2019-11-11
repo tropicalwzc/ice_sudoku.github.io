@@ -1,8 +1,6 @@
 # ice sudoku
 专业数独程序
 
-![icon](https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/icesudokuicon.png)
-
 ## 如何使用
 ### iPhone 版本
 <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
