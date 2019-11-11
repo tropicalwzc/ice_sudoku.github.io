@@ -7,4 +7,4 @@
 ## iPad
 ![ipad 教程](https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice_sudoku_HD_help.html)
 ## Windows & macOS
-![pc 教程](https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice sudoku pc.html)
+![pc 教程](https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice_sudoku_pc.html)
