@@ -29,5 +29,10 @@ App store 免费获取 <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?
 
 ## 提出你的建议 
 #### Advice or issues
+访问知乎主页
 <https://www.zhihu.com/question/333157539/answer/852434769>
 
+发送邮件到
+<wzc990503@qq.com>
+
+或者直接在App store评价留言
