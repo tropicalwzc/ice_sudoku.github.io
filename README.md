@@ -17,12 +17,13 @@
 ## 获取最新程序 
 #### Download the newest ice sudoku now
 ### ios
-<https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+App store 获取 <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 ### macOS
-<https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
+App store 获取 <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice_sudoku_x%201.1.5.zip>
-
+1.Github下载 <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice_sudoku_x%201.1.5.zip>
+2.通过微云下载 <https://share.weiyun.com/5lk8Hm6>
+3.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 ## 提出你的建议 
 #### Advice or issues
 <https://www.zhihu.com/question/333157539/answer/852434769>
