@@ -5,14 +5,6 @@
 ##### using advanced multithreading random algorithm
 #### 支持按照逻辑分步求解绝大多数数独
 ##### solving a sudoku step by step logically
-## 如何使用 
-#### How to use ?
-### iPhone 
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
-### iPad 
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20HD%20使用手册v1.1.3.pdf>
-### Windows & macOS
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20pc.pdf>
 
 ## 获取最新程序 
 #### Download the newest ice sudoku now
@@ -26,6 +18,16 @@
 2.通过微云下载 <https://share.weiyun.com/5lk8Hm6>
 
 3.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
+
+## 如何使用 
+#### How to use ?
+### iPhone 
+<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
+### iPad 
+<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20HD%20使用手册v1.1.3.pdf>
+### Windows & macOS
+<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20pc.pdf>
+
 
 ## 提出你的建议 
 #### Advice or issues
