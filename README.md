@@ -19,16 +19,6 @@
 
 3.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-## 如何使用 
-#### How to use ?
-### iPhone 
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20帮助手册v1.1.3.pdf>
-### iPad 
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20HD%20使用手册v1.1.3.pdf>
-### Windows & macOS
-<https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/ice%20sudoku%20pc.pdf>
-
-
 ## 提出你的建议 
 #### Advice or issues
 访问知乎主页
