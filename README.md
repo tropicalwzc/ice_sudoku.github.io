@@ -13,7 +13,7 @@
 ### macOS
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows
-1.Github下载 <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice_sudoku_x%201.1.5.zip>
+1.访问官网下载 
 
 2.通过微云下载 <https://share.weiyun.com/5lk8Hm6>
 
