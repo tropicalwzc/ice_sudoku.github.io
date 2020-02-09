@@ -22,6 +22,7 @@
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
+#### Windows&macOS <https://share.weiyun.com/5ewzXXD>
 ## 提出你的建议 
 #### Advice or issues
 访问知乎主页
