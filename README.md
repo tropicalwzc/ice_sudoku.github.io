@@ -19,6 +19,8 @@
 
 3.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
+## 帮助文档
+#### iPad https://share.weiyun.com/5oG4wOG
 ## 提出你的建议 
 #### Advice or issues
 访问知乎主页
