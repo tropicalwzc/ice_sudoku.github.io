@@ -13,12 +13,13 @@
 ### macOS
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows
-1.访问官网下载 
+1.Github下载 <https://github.com/tropicalwzc/ice_sudoku.github.io/raw/master/Windows%20edition/ice_sudoku_x%201.1.5.zip>
 
 2.通过微云下载 <https://share.weiyun.com/5lk8Hm6>
 
 3.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
+4.访问我那不可靠的官网
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
