@@ -1,6 +1,6 @@
 # 多线程专业数独程序 
 ### IOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
-### 官方网站(动态域名)<http://b671863e.ngrok.io/>
+
 #### 通过先进的随机数算法在iPhone上也能快速生成SE难度高达8.3的数独
 ##### using advanced multithreading random algorithm
 #### 支持按照逻辑分步求解绝大多数数独
@@ -17,7 +17,6 @@
 
 2.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-3.访问我那不可靠的官网
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
