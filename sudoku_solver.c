@@ -591,6 +591,7 @@ int dialog_sudoku(int sudoku[9][9])
 }
 int main(int argc, const char * argv[]) {
     // insert code here...
+    srand(time(0));
     char inter[100];
     scanf("%s",&inter);
     int sudoans[10][9][9];
