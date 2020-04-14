@@ -10,6 +10,7 @@
 #include <time.h>
 #include <stdlib.h>
 
+//清空x,y点行列宫范围内的候选数
 void clear_point(int sudo[10][9][9], int trnum, int x, int y)
 {
     for (int v = 0; v < 9; v++)
@@ -22,6 +23,7 @@ void clear_point(int sudo[10][9][9], int trnum, int x, int y)
     for (int r = 0; r < 9; r++)
         sudo[trnum][r / 3 + x - x % 3][r % 3 + y - y % 3] = 0;
 }
+//完全清空候选数数组
 void clear_bits(int save[10][9][9])
 {
     for (int i = 0; i < 9; i++)
@@ -32,7 +34,7 @@ void clear_bits(int save[10][9][9])
         }
 
 }
-
+//判断两个数独否完全一致
 int isthesame(int sudo[9][9], int sudoext[9][9])
 {
     for (int i = 0; i < 9; i++)
@@ -43,7 +45,7 @@ int isthesame(int sudo[9][9], int sudoext[9][9])
         }
     return 1;
 }
-
+//复制数独
 void copysudo(int sudo[9][9], const int sudoext[9][9])
 {
     int i, k;
@@ -54,6 +56,7 @@ void copysudo(int sudo[9][9], const int sudoext[9][9])
         }
     return;
 }
+//候选数模式复制数独
 void bitcopysudo(int sudo[10][9][9], const int sudoext[10][9][9])
 {
     int i, k, p;
@@ -64,6 +67,7 @@ void bitcopysudo(int sudo[10][9][9], const int sudoext[10][9][9])
                 sudo[p][i][k] = sudoext[p][i][k];
             }
 }
+//判断是否允许填入(x,y)点的z值
 int canputin(const int sudo[9][9], int x, int y, int z)
 {
     if (sudo[x][y] != 0)
@@ -94,6 +98,7 @@ int canputin(const int sudo[9][9], int x, int y, int z)
     return 1;
 
 }
+//求和
 int sumlay(const int lay[9][9], int q, int p)
 {
     int x, y;
@@ -106,6 +111,7 @@ int sumlay(const int lay[9][9], int q, int p)
         }
     return 9;
 }
+//判断是否在(x,y)所在九宫格内存在z值
 int isexist(const int sudo[9][9], int x, int y, int z)
 {
     for (int a = (x / 3) * 3; a < (x / 3) * 3 + 3; a++) {
@@ -117,7 +123,7 @@ int isexist(const int sudo[9][9], int x, int y, int z)
     }
     return 1;
 }
-
+//构建候选数全图，无自动更新
 int low_build_bit(int sudo[10][9][9])
 {
     int i, k, f;
@@ -137,6 +143,7 @@ int low_build_bit(int sudo[10][9][9])
         }
     return 1;
 }
+//点排除模式刷新数独
 int change_bit(int sudo[10][9][9])
 {
     int con = 0, py = 0, l, v, i, k, al = 0;
@@ -176,6 +183,7 @@ int change_bit(int sudo[10][9][9])
     }
     return al;
 }
+//宫排除模式刷新数独
 int square_bit(int sudo[10][9][9])
 {
 
@@ -226,7 +234,7 @@ int square_bit(int sudo[10][9][9])
     }
     return label;
 }
-
+//行排除刷新数独
 int row_bit(int sudo[10][9][9])
 {
     int changeor = 0, i, k, p, row[10] = {};
@@ -272,6 +280,7 @@ int row_bit(int sudo[10][9][9])
 
     return changeor;
 }
+//列排除模式刷新数独
 int col_bit(int sudo[10][9][9])
 {
     int changeor = 0, col[11] = {}, colnum[11] = {};
@@ -307,6 +316,7 @@ int col_bit(int sudo[10][9][9])
     }
     return changeor;
 }
+//综合使用行列宫点排除进行快速刷新候选数图
 int presolvesudo(int sudo[10][9][9])
 {
     int lok = 0;
@@ -319,6 +329,7 @@ int presolvesudo(int sudo[10][9][9])
 
 
 }
+//构建基础候选数图并且加入自动快速更新
 int build_bit(int sudo[10][9][9])
 {
     int i, k, f;
@@ -340,6 +351,7 @@ int build_bit(int sudo[10][9][9])
 
     return 1;
 }
+//判断当前数独是否存在无解矛盾
 int linecheck(int tempsudo[10][9][9])
 {
     //-----------------------------------------------------------------------------
@@ -401,6 +413,7 @@ int linecheck(int tempsudo[10][9][9])
 
     return 1;
 }
+//数独是否存在空格?
 int isvacant(const int sudo[9][9])
 {
     for (int i = 0; i < 9; i++)
@@ -411,6 +424,7 @@ int isvacant(const int sudo[9][9])
         }
     return 0;
 }
+//数独是否求解完毕?
 int isok(const int sudo[9][9])
 {
     int i, k, mul, sum = 0;
@@ -440,6 +454,7 @@ int isok(const int sudo[9][9])
     }
     return 1;
 }
+//检测两个数独是否一样
 int check(const int sudo[9][9], const int sudoext[9][9])
 {
     for (int i = 0; i < 9; i++)
@@ -451,6 +466,7 @@ int check(const int sudo[9][9], const int sudoext[9][9])
         }
     return 1;
 }
+//随机快速求解数独
 void solvesudo(int sudo[10][9][9], int sudoext[9][9])
 {
     int rng, x, y, q, p, trnum;
@@ -460,14 +476,17 @@ void solvesudo(int sudo[10][9][9], int sudoext[9][9])
 
     int sudop[10][9][9] = {};
     copysudo(sudop[0], sudoext);
+    //建立基础候选数图
     build_bit(sudop);
 
     if (isvacant(sudop[0]) == 0)
     {
+        //90%以上的数独时最简单的，连一次刷新都挺不过就求解完毕了
+        //可以直接返回
         copysudo(sudo[0], sudop[0]);
         return;
     }
-
+    //记录已访问
     int havetry[10] = {};
 
 
@@ -476,7 +495,8 @@ void solvesudo(int sudo[10][9][9], int sudoext[9][9])
         backer = 0;
         for (int i = 0; i < 10; i++)
             havetry[i] = 0;
-
+        
+        //候选数恢复现场
         bitcopysudo(sudo, sudop);
 
         for (dt = 1; dt < 10; dt++)// fill num 1-9
@@ -491,12 +511,14 @@ void solvesudo(int sudo[10][9][9], int sudoext[9][9])
             if (dt >= 2)
                 if (!linecheck(sudo))
                 {
+                    //已经出现错误，返回恢复现场重新尝试
                     backer = 2;
                     break;
                 }
             if (dt >= 2)
                 if (isvacant(sudo[0]) == 0)
                 {
+                    //似乎已经求解完成,检测一下
                     break;
                 }
             for (int ii = 0; ii < 9; ii++)
@@ -544,13 +566,14 @@ void solvesudo(int sudo[10][9][9], int sudoext[9][9])
                     presolvesudo(sudo);
                 }
                 else {
+                    //已经尝试过所有情况，仍然没有返回意味着已经在这个九宫格的trnum无法满足，返回重试
                     backer = 2;
                     break;
                 }
             }
         }
     } while (backer == 2 || isok(sudo[0]) == -1 || check(sudo[0], sudoext) == -1);
-
+    //只有经过验证和原有数字完全一样的已经完全符合数独规则的81个格全部填写完毕才算求解完毕
 }
 void print_a_sudoku(int sudoku[10][9][9])
 {
