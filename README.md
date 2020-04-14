@@ -17,6 +17,7 @@
 
 2.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
+3.Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice%20sudoku%20x%201.2.2.zip>
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
