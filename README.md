@@ -13,11 +13,9 @@
 ### macOS
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows
-1.通过微云下载 <https://share.weiyun.com/5lk8Hm6>
+1.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-2.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
-
-3.Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice%20sudoku%20x%201.2.2.zip>
+2.Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/blob/master/Windows%20edition/ice_sudoku%201.2.3.zip>
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
