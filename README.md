@@ -29,7 +29,7 @@
 <wzc990503@qq.com>
 
 或者直接在App store评价留言
-
+![](https://user-images.githubusercontent.com/31509619/86983219-e6992f80-c1bd-11ea-957b-054a18513cc9.png)
 ![](https://user-images.githubusercontent.com/31509619/86983184-c1a4bc80-c1bd-11ea-91d5-ccc6ffae580f.png)
 ![](https://user-images.githubusercontent.com/31509619/86983203-cff2d880-c1bd-11ea-9d03-88b1f1763b0c.png)
 ![](https://user-images.githubusercontent.com/31509619/86509311-8ef37080-be19-11ea-9f89-079c44576b32.png)
