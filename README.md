@@ -30,4 +30,5 @@
 
 或者直接在App store评价留言
 
+![](https://user-images.githubusercontent.com/31509619/86983184-c1a4bc80-c1bd-11ea-91d5-ccc6ffae580f.png)
 ![](https://user-images.githubusercontent.com/31509619/86509311-8ef37080-be19-11ea-9f89-079c44576b32.png)
