@@ -1,5 +1,5 @@
 # 多线程专业数独程序 
-### IOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+### iOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 
 #### 通过先进的随机数算法在iPhone上也能快速生成SE难度高达8.3的数独
 ##### using advanced multithreading random algorithm
@@ -8,7 +8,7 @@
 
 ## 获取最新程序 
 #### Download the newest ice sudoku now
-### ios 
+### iOS 
  <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 ### macOS
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
@@ -48,3 +48,4 @@
 ![](https://user-images.githubusercontent.com/31509619/86983184-c1a4bc80-c1bd-11ea-91d5-ccc6ffae580f.png)
 ![](https://user-images.githubusercontent.com/31509619/86983203-cff2d880-c1bd-11ea-9d03-88b1f1763b0c.png)
 
+后续应该可以通过蓝牙实现多设备协作生成数独
