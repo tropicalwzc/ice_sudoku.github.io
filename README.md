@@ -5,7 +5,7 @@
 ##### using advanced multithreading random algorithm
 #### 支持按照逻辑分步求解绝大多数数独
 ##### solving a sudoku step by step logically
-#### 支持macOS设备和iOS设备通过蓝牙连接组成多进程多线程运算组
+#### 支持macOS设备和iOS设备通过蓝牙连接组成多进程多线程运算组，齐心协力完成一个数独的生成
 ##### Bluetooth connection support for macOS and iOS devices, forming a computation group and generating a sudoku together
 
 ## 获取最新程序 
