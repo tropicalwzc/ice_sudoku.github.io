@@ -1,10 +1,12 @@
-# 多线程专业数独程序 
+# 蓝牙联合多线程专业数独程序 
 ### iOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 
 #### 通过先进的随机数算法在iPhone上也能快速生成SE难度高达8.3的数独
 ##### using advanced multithreading random algorithm
 #### 支持按照逻辑分步求解绝大多数数独
 ##### solving a sudoku step by step logically
+#### 支持macOS设备和iOS设备通过蓝牙连接组成多进程多线程运算组
+##### Bluetooth connection support for macOS and iOS devices, forming a computation group and generating a sudoku together
 
 ## 获取最新程序 
 #### Download the newest ice sudoku now
@@ -48,4 +50,3 @@
 ![](https://user-images.githubusercontent.com/31509619/86983184-c1a4bc80-c1bd-11ea-91d5-ccc6ffae580f.png)
 ![](https://user-images.githubusercontent.com/31509619/86983203-cff2d880-c1bd-11ea-9d03-88b1f1763b0c.png)
 
-后续应该可以通过蓝牙实现多设备协作生成数独
