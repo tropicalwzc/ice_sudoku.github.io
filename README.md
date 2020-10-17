@@ -10,16 +10,16 @@
 
 ## 获取最新程序 
 #### Download the newest ice sudoku now
-### iOS 
+### iOS 11 or later (2$)
  <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
-### macOS
+### macOS 10.14 or later (free)
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
-### Windows
+### Windows 7 or later (free)
 1.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
 2.Download Windows.ice.sudoku.1.2.5.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
-### Ubuntu 
+### Ubuntu 18.04 or later (free)
 
 Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
