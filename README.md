@@ -38,6 +38,12 @@ sudo apt-get install libxcb-xinerama0
 ```
 * 4. click ice sudoku from show application window or search ice sudoku to launch
 
+if it didn't work, go to ice_sudoku/ice_sudoku folder 
+
+```
+sudo ./ice_sudoku.sh
+```
+
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
