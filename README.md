@@ -1,4 +1,4 @@
-# 蓝牙联合多线程专业数独程序 
+# 专业数独程序 
 ### iOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
 
 #### 通过先进的随机数算法在iPhone上也能快速生成SE难度高达8.3的数独
@@ -23,9 +23,15 @@
 
 Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
-> 1. sudo chmod 777 Installerice_sudoku.run
-> 2. sudo ./Installerice_sudoku.run
-> 3. click ice sudoku from show application window
+* 1. unzip 
+```
+sudo chmod 777 Installerice_sudoku.run
+```
+* 2. run the installer
+```
+sudo ./Installerice_sudoku.run
+```
+* 3. click ice sudoku from show application window
 
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
@@ -53,6 +59,9 @@ Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropica
 **Windows 预览**
 
 ![](https://user-images.githubusercontent.com/31509619/86509311-8ef37080-be19-11ea-9f89-079c44576b32.png)
+
+**Ubuntu 预览**
+![](https://user-images.githubusercontent.com/31509619/96327939-a1b04f00-1070-11eb-9810-88cc6abab380.png)
 
 **iPhone 预览**
 
