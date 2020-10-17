@@ -19,7 +19,7 @@
 
 2.Download Windows.ice.sudoku.1.2.5.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
-### Ubuntu 18.04 or later (free)
+### Ubuntu 16.04 or later (free)
 
 Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
@@ -31,13 +31,12 @@ sudo chmod 777 Installerice_sudoku.run
 ```
 sudo ./Installerice_sudoku.run
 ```
-* 3. click ice sudoku from show application window
-
-get xinerama0 while running under ubuntu 20.04
+* 3. get libxcb-xinerama0 
 
 ```
 sudo apt-get install libxcb-xinerama0
 ```
+* 4. click ice sudoku from show application window or search ice sudoku to launch
 
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
