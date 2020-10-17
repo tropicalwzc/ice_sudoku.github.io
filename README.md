@@ -17,7 +17,16 @@
 ### Windows
 1.通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-2.Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+2.Download Windows.ice.sudoku.1.2.5.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+
+### Ubuntu 
+
+Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+
+> 1. sudo chmod 777 Installerice_sudoku.run
+> 2. sudo ./Installerice_sudoku.run
+> 3. click ice sudoku from show application window
+
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
