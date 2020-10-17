@@ -33,6 +33,12 @@ sudo ./Installerice_sudoku.run
 ```
 * 3. click ice sudoku from show application window
 
+get xinerama0 while running under ubuntu 20.04
+
+```
+sudo apt-get install libxcb-xinerama0
+```
+
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
