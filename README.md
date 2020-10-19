@@ -29,7 +29,7 @@
 ```
 sudo chmod 777 Installerice_sudoku.run
 ```
-* 2. run the installer
+* 2. run the installer (Don't need sudo under Ubuntu 20.04)
 ```
 sudo ./Installerice_sudoku.run
 ```
