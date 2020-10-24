@@ -46,6 +46,10 @@ if it didn't work, go to ice_sudoku/ice_sudoku folder
 sudo ./ice_sudoku.sh
 ```
 
+### Android 7 or later alpha version
+
+<https://github.com/tropicalwzc/ice_sudoku_alpha.github.io>
+
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
