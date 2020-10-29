@@ -50,6 +50,12 @@ sudo ./ice_sudoku.sh
 
 <https://github.com/tropicalwzc/ice_sudoku_alpha.github.io>
 
+通过百度云下载
+
+https://pan.baidu.com/s/1uWBtKJTDklAraibBH5RIjA 密码: 23kl
+
+
+
 ## 帮助文档
 #### iPhone <https://share.weiyun.com/5imj5oa>
 #### iPad <https://share.weiyun.com/5oG4wOG>
