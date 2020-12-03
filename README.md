@@ -17,13 +17,13 @@
 ### Windows 7 or later (free)
 1).通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-2).Download Windows.ice.sudoku.1.2.5.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+2).Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
 ### Ubuntu 16.04 or later (free)
 
 1).通过百度云下载 <https://pan.baidu.com/s/16sLLSHdpS39Ky6UCmqCSHg> 提取码:7dqv
 
-2).Download Ubuntu_Installer_ice_sudoku.zip from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+2).Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
 * 1. unzip 
 ```
