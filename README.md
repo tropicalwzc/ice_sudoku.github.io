@@ -12,14 +12,14 @@
 #### Download the newest ice sudoku now
 ### iOS 11 or later 
  <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
-### macOS 10.14 or later (free)
+### macOS 10.14 or later 
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
-### Windows 7 or later (free)
+### Windows 7 or later 
 1).通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
 2).Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
 
-### Ubuntu 16.04 or later (free)
+### Ubuntu 16.04 or later 
 
 1).通过百度云下载 <https://pan.baidu.com/s/16sLLSHdpS39Ky6UCmqCSHg> 提取码:7dqv
 
