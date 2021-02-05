@@ -70,6 +70,13 @@ https://pan.baidu.com/s/1uWBtKJTDklAraibBH5RIjA 密码: 23kl
 
 或者直接在App store评价留言
 
+## 存档位置
+
+### Windows
+
+根目录ice_save文件夹为所有个人存档，批量生成数独的时候会在根目录建立rolling_history相关txt文件
+
+
 ---
 **iPad 预览**
 
