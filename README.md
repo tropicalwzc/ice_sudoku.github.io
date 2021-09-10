@@ -7,6 +7,8 @@
 ##### solving a sudoku step by step logically
 #### 支持macOS设备和iOS设备通过蓝牙连接组成多进程多线程运算组，齐心协力完成一个数独的生成
 ##### Bluetooth connection support for macOS and iOS devices, forming a computation group and generating a sudoku together
+#### 支持使用Resnet34直接扫一扫识别数独，或者从照片内识别数独
+##### support Resnet34 scan sudoku by your camera or identify sudoku from photo
 
 ## 获取最新程序 
 #### Download the newest ice sudoku now
