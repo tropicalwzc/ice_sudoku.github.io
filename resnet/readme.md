@@ -5,3 +5,7 @@
 ### 3. 训练完成之后运行`packing.py` 自动将pytorch模型转换为coreml格式
 
 ### 4. 这一步需要在macOS上才能运行，运行`halfer.py`直接将模型大小减半，基本不损失任何精度，因为本来就是以float训练的
+
+### 5. 将最终生成好的IceSudokuModel.mlmodel拖入Xcode项目内，引入头文件"IceSudokuModel.h"就可以方便的在OC里面调用机器学习模型了
+
+### 6. 当然真正用起来还需要开发一个扫描界面
