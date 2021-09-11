@@ -15,7 +15,7 @@
 ### 5. 将最终生成好的IceSudokuModel.mlmodel拖入Xcode项目内，引入头文件"IceSudokuModel.h"就可以方便的在OC里面调用机器学习模型了
 #### Drag the final result IceSudokuModel.mlmodel to your Xcode project. include "IceSudokuModel.h" then you can run the model in Objective-C now .
 
-### 6. 当然真正用起来还需要开发一个扫描界面
+### 6. 在usemodel文件夹内有Objective-C详细调用IceSudokuModel的实现，但是还需要开发一个扫描界面才能更好的使用，smart类只是提供了线程调度和智能调节识别结果的方法。
 #### Of course that is still not enough, you need designing a scan view for users.
 
 
