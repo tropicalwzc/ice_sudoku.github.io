@@ -5,7 +5,7 @@
 ##### using advanced multithreading random algorithm
 #### 支持按照逻辑分步求解绝大多数数独
 ##### solving a sudoku step by step logically
-#### 支持macOS设备和iOS设备通过蓝牙连接组成多进程多线程运算组，齐心协力完成一个数独的生成
+#### 支持macOS设备和iOS设备通过本地UDB连接组成多进程多线程运算组，齐心协力完成一个数独的生成
 ##### Bluetooth connection support for macOS and iOS devices, forming a computation group and generating a sudoku together
 #### 支持使用Resnet34直接扫一扫识别数独，或者从照片内识别数独。对Resnet34怎么训练感兴趣的到resnet文件夹看一下就知道了。
 ##### support Resnet34 scan sudoku by your camera or identify sudoku from photo. If you are interested in how to train the resnet34 model and run the model on iPhone, go to the resnet folder.
