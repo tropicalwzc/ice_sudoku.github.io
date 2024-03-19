@@ -1,5 +1,5 @@
 # 专业数独程序 
-### iOS <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+### iOS <https://apps.apple.com/app/ice-sudoku/id1473595660>
 
 #### 通过先进的随机数算法在iPhone上也能快速生成SE难度高达8.3的数独
 ##### using advanced multithreading random algorithm
@@ -11,7 +11,7 @@
 ## 获取最新程序 
 #### Download the newest ice sudoku now
 ### iOS 11 or later 
- <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
+ <https://apps.apple.com/app/ice-sudoku/id1473595660>
 ### macOS 10.14 or later 
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows 7 or later 
