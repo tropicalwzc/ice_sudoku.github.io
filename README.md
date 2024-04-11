@@ -17,7 +17,7 @@
 ### Windows 7 or later 
 1).通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
-2).Download from github <https://github.com/tropicalwzc/ice_sudoku.github.io/releases>
+2).<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice_sudoku.2.0.0.zip>
 
 ### Ubuntu 16.04 or later 
 
