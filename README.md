@@ -15,15 +15,20 @@
 ### macOS 10.14 or later 
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows 7 or later 
-1).通过百度云下载 <https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
+1).
+x64
+<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice_sudoku.2.0.0.zip>
 
-2).<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice_sudoku.2.0.0.zip>
+x86
+<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice.sudoku.1.2.2_32bit.zip>
+
+2).<https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
 
 ### Ubuntu 16.04 or later 
 
 1).<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/1.2.5/Ubuntu_Installer_ice_sudoku_1.2.5.zip>
 
-2).通过百度云下载 <https://pan.baidu.com/s/16sLLSHdpS39Ky6UCmqCSHg> 提取码:7dqv
+2).<https://pan.baidu.com/s/16sLLSHdpS39Ky6UCmqCSHg> 提取码:7dqv
 
 * 1. unzip 
 ```
