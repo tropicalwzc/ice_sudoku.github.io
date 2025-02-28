@@ -17,7 +17,7 @@
 ### Windows 7 or later 
 1).
 x64
-<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.1.0/ice_sudoku_2.1.0.zip>
+<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.1.1/ice_sudoku_2.1.1.zip>
 
 x86
 <https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice.sudoku.1.2.2_32bit.zip>
