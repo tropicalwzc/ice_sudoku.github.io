@@ -16,10 +16,10 @@
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
 ### Windows 7 or later 
 1).
-x64
+windows 10 x64
 <https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.1.1/ice_sudoku_2.1.1.zip>
 
-x86
+windows 7 or x86
 <https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice.sudoku.1.2.2_32bit.zip>
 
 2).<https://pan.baidu.com/s/1QwfKPWdxJW9Wz7hrtBFsNQ>
