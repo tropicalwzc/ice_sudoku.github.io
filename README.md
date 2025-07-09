@@ -14,6 +14,7 @@
  <https://apps.apple.com/app/ice-sudoku/id1473595660>
 ### macOS 10.14 or later 
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
+ 过于老旧，目前在macOS 15下需要右键点击ice sudoku x -> 显示包内容 -> Contents -> MacOS -> ice sudoku x 通过控制台打开
 ### Windows 7 or later 
 1).
 windows 10 x64
