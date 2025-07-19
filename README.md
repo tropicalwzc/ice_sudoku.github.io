@@ -74,9 +74,6 @@ https://pan.baidu.com/s/1uWBtKJTDklAraibBH5RIjA 密码: 23kl
 发送邮件到
 <wzc990503@qq.com>
 
-加入用户反馈qq群 
-953085705
-
 或者直接在App store评价留言
 
 ## 存档位置
