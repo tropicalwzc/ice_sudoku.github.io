@@ -57,9 +57,8 @@ sudo ./ice_sudoku.sh
 
 <https://github.com/tropicalwzc/ice_sudoku_alpha.github.io>
 
-![百度云盘下载](https://pan.baidu.com/s/5uwKQN04Jk6E9bA0clv_hng)
-
-
+或百度云盘下载
+<https://pan.baidu.com/s/5uwKQN04Jk6E9bA0clv_hng>
 
 
 ## 帮助文档
