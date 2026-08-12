@@ -53,13 +53,12 @@ if it didn't work, go to ice_sudoku/ice_sudoku folder
 sudo ./ice_sudoku.sh
 ```
 
-### Android 7 or later alpha version
+### Android version
 
 <https://github.com/tropicalwzc/ice_sudoku_alpha.github.io>
 
-通过百度云下载
+![百度云盘下载](https://pan.baidu.com/s/5uwKQN04Jk6E9bA0clv_hng)
 
-https://pan.baidu.com/s/1uWBtKJTDklAraibBH5RIjA 密码: 23kl
 
 
 
