@@ -11,7 +11,7 @@
 ## 获取最新程序 
 #### Download the newest ice sudoku now
 ### iOS 11 or later 
- <https://apps.apple.com/app/ice-sudoku/id1473595660>
+ <https://apps.apple.com/cn/app/ice-sudoku/id1473595660>
  
 ### macOS 10.14 or later 
  <https://apps.apple.com/cn/app/ice-sudoku-x/id1479991985?l=en&mt=12>
