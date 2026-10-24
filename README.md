@@ -19,7 +19,7 @@
 ### Windows 7 or later 
 1).
 windows 10 x64
-<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.1.1/ice_sudoku_2.1.1.zip>
+<https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.2.0/ice_sudoku_2.2.0.zip>
 
 windows 7 or x86
 <https://github.com/tropicalwzc/ice_sudoku.github.io/releases/download/2.0.0/ice.sudoku.1.2.2_32bit.zip>
